@@ -2,7 +2,7 @@
 
 Keras implementation of land use classification by CNNs
 
-We applied a CNN constructed by two deep learning network.
+## Code
 + Simpilified Residential Network: `./Code/Simplified_ResNet.py`
 + VGG-like Network: `./Code/AtrousVGG.py`
 + Two-stream convolutional neural network for combining features (CFCNN): `./Code/Keras_Merge.py`
@@ -24,7 +24,7 @@ The source code is compiled on the Windows 10 platform using Python 3.6. The dep
 We provide training data and test data for estimating the performance of models.
 Training data and test data can be found in `./Data`, stored as sample points.
 
-The original high spatial resolution image and population density data can be downloaded in [Baidu Netdisk](https://pan.baidu.com/s/1qIaLTqkQ7byazxO5vgolZw). The extracted code is `fo7v`.
+The original high spatial resolution image and population density data can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1qIaLTqkQ7byazxO5vgolZw). The extracted code is `fo7v`.
 
 ## Example
 We provide a sample of data in `./Data/Exam_ClassificationResult`. The folder contains processed high-resolution images and population density data. We can test the feasibility of the code in `./Code/Classify_FullImage.py`.
