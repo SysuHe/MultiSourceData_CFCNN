@@ -24,7 +24,7 @@ The source code is compiled on the Windows 10 platform using Python 3.6. The dep
 We provide training data and test data for estimating the performance of models.
 Training data and test data can be found in `./Data`, stored as sample points.
 
-The original high spatial resolution image and people density data can be found in [BaiduCloudDrive](https://pan.baidu.com/s/1qIaLTqkQ7byazxO5vgolZw). The extracted code is `fo7v`.
+The original high spatial resolution image and population density data can be downloaded in [Baidu Netdisk](https://pan.baidu.com/s/1qIaLTqkQ7byazxO5vgolZw). The extracted code is `fo7v`.
 
 ## Example
-We provide a sample of data in `./Data/Exam_Data`. 
+We provide a sample of data in `./Data/Exam_ClassificationResult`. The folder contains processed high-resolution images and population density data. We can test the feasibility of the code in `./Code/Classify_FullImage.py`.
